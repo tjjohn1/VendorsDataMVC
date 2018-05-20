@@ -29,6 +29,11 @@ namespace CasinoDataMVC.Controllers
             }
         }
         
+        public ActionResult ProcessCSV()
+        {
+            return View();
+        }
+        
         public ActionResult Index()
         {
             return View();
