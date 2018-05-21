@@ -1,13 +1,13 @@
 ﻿@model dynamic
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "Process CSV";
 }
 
-<h2>title</h2>
+<h2>Process CSV File</h2>
 <div>
-    <input type="file" class="upload"  runat="server" id="csvFile"/>
     <br>
-    <button onclick="processCSV()">ProcessCSV</button>
+    <select id="filesList">CSV Files</select>
+    <button id="processCSV">ProcessCSV</button>
+    <div id="csvDisplay"></div>
 </div>

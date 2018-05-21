@@ -18,5 +18,7 @@ namespace CasinoDataMVC.Models
         public int fifties { get; set; }
         [BsonElement("hundreds")]
         public int hundreds { get; set; }
+        [BsonElement("total")]
+        public int total { get; set; }
     }
 }

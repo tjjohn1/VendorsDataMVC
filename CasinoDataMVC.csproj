@@ -61,6 +61,7 @@
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
@@ -104,6 +105,7 @@
     <Compile Include="App_Start\MongoContext.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\CSVController.cs" />
     <Compile Include="Controllers\VendorsDataController.cs" />
     <Compile Include="DataProcessing\csvTo2dArray.cs" />
     <Compile Include="Global.asax.cs" />
